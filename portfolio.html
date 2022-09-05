@@ -4,80 +4,60 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Illiad</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link href="style.css" rel="stylesheet" type="text/css" media="all">
     <link href="https://fonts.googleapis.com/css?family=Abel" rel="stylesheet">
   </head>
-  <body>
+  <body class="bg">
     <header>
       <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <div class="collapse navbar-collapse" id="navbarText">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="index.html">Home</a>
-            </li>
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Hobbies<span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="githubrepo.html">Portfolio</a>
-            </li>
-          </ul>
+        <div class="container-fluid">
           <span class="logo">
             <a href="#.html">Illiad</a>
           </span>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link" href="index.html">Home</a>
+              <a class="nav-link" href="hobbies.html">Hobbies</a>
+              <a class="nav-link active" aria-current="page" href="#">Portfolio</a>
+            </div>
+          </div>
         </div>
       </nav>
     </header>
     <div class="box-area">
       <div class="banner-area">
-        <h1>Hobbies</h1>
+        <h1>Projects</h3>
       </div>
         <div class="content-area">   
-<h2>Sample Videos on YouTube</h2>
-            <p>
-            The first video that I've made is a Track I mixed back in 1st year College in the library <br> <b><em>Here is the video:</em></b>
-            </p>
-            <iframe width="900" height="600" src="https://www.youtube.com/embed/XUysx02H5Q4"></iframe>
-            <p>
-            Next is other videos of tracks that I made. <br>Here is a list:
-            </p>
-            <dl class="list">
-                <dt><b>I like you</b></dt>
-                <iframe width="900" height="600" src="https://www.youtube.com/embed/kkf5uurBvLk"></iframe><br>
-                    <dd>This is a typical and generic lo-fi track.</dd><br>
-                <dt><b>Idle</b></dt>
-                <iframe width="900" height="600" src="https://www.youtube.com/embed/Kn71hJfLiig"></iframe><br>
-                    <dd>I made this track when I was bored.</dd><br>
-                <dt><b>Mori Calliope - (TRAP REMIX) 失礼しますが、RIP? | Excuse My Rudeness, But Could You Please RIP?</b></dt>
-                <iframe width="900" height="600" src="https://www.youtube.com/embed/LO0Y6qx6fM8"></iframe><br>
-                    <dd>This one is the most popular one I made, it was a submission to a track mixing contest, it was the first ever contest that I joined online.</dd>
-            
-            <p>
-            The Program that I use to mix audio is FL Studio and for the video I use Adove Premiere Pro.<br>
-            The person who taught me how to mix tracks and make music is my best friend, you can find more about him and his works by clicking this <a href="https://www.youtube.com/channel/UCNlCO1DzO8ZBJjiLLFfdIPA/videos">link</a>.
-            </p>
-        <h2>Digital Drawings/Illustrations</h2>
-            <p>
-                Here are some samples of my digital drawings made using a drawing tablet and the application CSP Pro (Clip Studio Paint Pro).
-            </p>
-                <dt><b>Pomu Rainpuff</b></dt>
-                <dd>Virtual Youtuber</dd><br>
-                    <div class="container">
-                    <img src=".\assets\pomu.jpg" alt="juice" class="image">
-                        <div class="overlay">
-                        <div class="text">Pomu Rainpuff</div>
-                        </div>
-                    </div>
-                        <p>
-                            Pomu Rainpuff (ぽむ れいんぱふ) is an English female Virtual YouTuber affiliated with NIJISANJI EN's first wave LazuLight, alongside Elira Pendora and Finana Ryugu. (src:<a href="https://virtualyoutuber.fandom.com/wiki/Pomu_Rainpuff"> https://virtualyoutuber.fandom.com/wiki/Pomu_Rainpuff)</a>
-                        </p>
-                <dt><b>Her YouTube channel: </b></dt>
-                    <dd><a href="https://www.youtube.com/channel/UCP4nMSTdwU1KqYWu3UH5DHQ">https://www.youtube.com/channel/UCP4nMSTdwU1KqYWu3UH5DHQ</a></dd><br><br>
-                
-                    <dt><b>If you have any questions contact me on one of my social media accounts at the bottom</b></dt>
-                    <dd>I'm available on Facebook, Twitter, Instagram, and I post my works on YouTube, Soundcloud, Pixiv, and Github.</dd><br><br>
-            </dl>
+            <h2><a href="https://github.com/AdrianeTroy/Youtube-Playlist-Downloader" target="_blank">https://github.com/AdrianeTroy/Youtube-Playlist-Downloader</a></h2>
+                <p>
+                A Simple Python application with GUI designed to download mp3 or mp4 from a Youtube playlist <br>
+                </p>
+                <img class="img-thumbnail" width="900" height="600" src="./assets/ytdlgui.png"></iframe>
+                <p>
+                    This app serves as a convenience purpose for downloading multiple free-to-use Youtube mp3/mp4 (free sfx, vfx, etc.). I made this application using Python pytube library and tkinter for the GUI.
+                </p>
+            <h2><a href="https://github.com/AdrianeTroy/RVMSchedSys" target="_blank">https://github.com/AdrianeTroy/RVMSchedSys</a></h2>
+                <p>
+                    This project is a web-based scheduling system designed for Ramon V. Mitra Sports Complex and is still under development for educational purposes. It is a dynamic web page made using Laravel PHP framework see Laravel. <br>
+                </p>
+                <img src="./assets/Calendar.jpg" class="img-thumbnail" alt="webcalendar" width="900" height="600">
+                <img src="./assets/calendar2.jpg" class="img-thumbnail" alt="mobilecalendar" width="300" height="300">
+                <p>
+                </p>
+                <img src="./assets/Home2.jpg" class="img-thumbnail" alt="webcalendar" width="900" height="600">
+                <img src="./assets/home.jpg" class="img-thumbnail" alt="mobilecalendar" width="300" height="300">
+                <p>
+                    This web app was made for our 4th year thesis in BSIT S.Y 2021-2022. The main idea was to create a way for athletes and non-athletes to request schedules of a facility they want to reduce the hectic traditional way of pen and paper.
+                </p>
+
             <footer class="footer">
                 <p>Adriane Troy U. Alariao © 2022<br>
                   Socials:<a href="https://www.facebook.com/adrianetroy.alariao.37/" target="_blank">
@@ -100,5 +80,8 @@
                   </a></p>
               </footer>
         </div>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>    
   </body>
 </html>

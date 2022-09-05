@@ -43,32 +43,29 @@ header {
  text-decoration: none; 
 }
 
-.banner-area {
- width: 100%;
- height: 700px;
- position: fixed;
- top: 65px;
- background-image: url(./assets/coverr.jpg);
- background-size: cover;
- background-position: center;
- background-attachment: scroll;
-}
-
-.banner-area h1 {
- padding-top: 15%;
- font-size: 50px;
- font-family: 'Abel';
- color: white;
-}
-
 h3 {
   font-family: 'Abel';
 }
 
+.vid {
+  height: 200px;
+  width: 350px;
+}
+
+.bg {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  background-image: url(./assets/coverr.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: scroll;
+ }
+ 
 .content-area {
  width: 100%;
  position: relative;
- top: 680px;
+ top: 180px;
  background: white;
  height: 100%;
 }
@@ -102,8 +99,8 @@ h3 {
 .image {
  display: block;
  border-radius: 8px;
- height: 730px;
- width: 720px;
+ height: 430px;
+ width: 400px;
  margin-left: auto;
  margin-right: auto;
 }
@@ -115,8 +112,8 @@ h3 {
  left: 0;
  right: 0;
  border-radius:8px;
- height: 730px;
- width: 720px;
+ height: 430px;
+ width: 400px;
  margin-left: auto;
  margin-right: auto;
  opacity: 0;
