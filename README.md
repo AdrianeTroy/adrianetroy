@@ -1,2 +1,2 @@
-# https://adrianetroy.github.io/adrianetroy/
-Webpage about myself
+# Portfolio
+https://adrianetroy.github.io/adrianetroy/
