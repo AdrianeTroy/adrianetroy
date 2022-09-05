@@ -52,6 +52,16 @@ h3 {
   width: 350px;
 }
 
+.webview {
+  height: 300px;
+  width: 450px;
+}
+
+.mobileview {
+  height: 500px;
+  width: 300px;
+}
+
 .bg {
   width: 100%;
   height: 100%;
@@ -98,6 +108,10 @@ h3 {
 
 .image {
  display: block;
+ top: 0;
+ bottom: 0;
+ left: 0;
+ right: 0;
  border-radius: 8px;
  height: 430px;
  width: 400px;
